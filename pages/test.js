@@ -167,10 +167,14 @@ export default function Home() {
                   </div>
                 </div>
               </div>
-              <p id="zp-birthplace" style={{ paddingLeft: "2.4rem" }}>
-                <label htmlFor="placein" className="zp-form-label">
-                  Birth City
-                </label>
+              <div
+                className="form-button-group"
+                id="zp-birthplace"
+                style={{ paddingLeft: "2.4rem" }}
+              >
+                <button type="submit" name="submit" id="zp-fetch-birthreport">
+                  Submit
+                </button>
                 <select
                   name="placein"
                   id="placein"
@@ -182,11 +186,6 @@ export default function Home() {
                     </option>
                   ))}
                 </select>
-              </p>
-              <div className="form-button-group">
-                <button type="submit" name="submit" id="zp-fetch-birthreport">
-                  Submit
-                </button>
               </div>
               <div className="divider"></div>
               <div className="form-group">
