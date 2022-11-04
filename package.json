@@ -9,8 +9,12 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@usecsv/react": "^0.2.14",
+    "circular-natal-horoscope-js": "^1.1.0",
     "next": "13.0.2",
     "react": "18.2.0",
-    "react-dom": "18.2.0"
+    "react-dom": "18.2.0",
+    "react-hook-form": "^7.39.1",
+    "react-use-form": "^0.1.0"
   }
 }
