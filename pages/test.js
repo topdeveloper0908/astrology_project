@@ -167,11 +167,7 @@ export default function Home() {
                   </div>
                 </div>
               </div>
-              <div
-                className="form-button-group"
-                id="zp-birthplace"
-                style={{ paddingLeft: "2.4rem" }}
-              >
+              <div className="form-button-group" id="zp-birthplace">
                 <button type="submit" name="submit" id="zp-fetch-birthreport">
                   Submit
                 </button>
@@ -189,7 +185,7 @@ export default function Home() {
               </div>
               <div className="divider"></div>
               <div className="form-group">
-                <div className="label bg-blue">Sun sign</div>
+                <div className="label bg-blue">Sun Sign</div>
                 <div>
                   <input
                     type="text"
@@ -201,7 +197,7 @@ export default function Home() {
                 </div>
               </div>
               <div className="form-group">
-                <div className="label bg-blue">Ascendant</div>
+                <div className="label bg-blue">Ascendant Sign</div>
                 <div>
                   <input
                     type="text"
@@ -213,7 +209,7 @@ export default function Home() {
                 </div>
               </div>
               <div className="form-group">
-                <div className="label bg-blue">Moon sign</div>
+                <div className="label bg-blue">Moon Sign</div>
                 <div>
                   <input
                     type="text"

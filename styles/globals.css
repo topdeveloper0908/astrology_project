@@ -54,6 +54,7 @@ body {
   justify-content: center;
   margin: 0 .5rem;
   padding-top: 0.7rem;
+  padding-left: 1.4rem;
 }
 .form-button-group button {
   min-width: 5rem;
